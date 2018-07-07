@@ -29,7 +29,10 @@ $(document).ready(function ($) {
 	} if(window.location.hash == '#questions'){
 		$('.section').hide();
 		$('#content').show();
-	}
+	} if(window.location.hash == '#result'){
+        $('.section').hide();
+        $('#result').show();
+    }
 //end pages routing
 
 	updateTime(0,0,0,0);
